@@ -8,8 +8,8 @@ const ContactUsHero = () => {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
           <p className="text-lg text-gray-300">
-            Have questions? We'd love to hear from you. Send us a message
-            and we'll respond as soon as possible.
+            Have questions? We'd love to hear from you. Send us a message and
+            we'll respond as soon as possible.
           </p>
         </div>
 
@@ -17,20 +17,20 @@ const ContactUsHero = () => {
           <ContactCard
             icon={<FaPhone />}
             title="Phone"
-            info="+1 (234) 567-8900"
+            info="+233-20-436-2233"
             subInfo="Mon-Fri from 8am to 5pm"
           />
           <ContactCard
             icon={<FaEnvelope />}
             title="Email"
-            info="info@company.com"
+            info="info@myBrother.com"
             subInfo="Online support"
           />
           <ContactCard
             icon={<FaMapMarkerAlt />}
             title="Office"
-            info="123 Business Avenue"
-            subInfo="New York, NY 10001"
+            info="Market Circle "
+            subInfo="Takoradi, Western Region"
           />
         </div>
       </div>
